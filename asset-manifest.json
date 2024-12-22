@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/webstree-assignment/static/css/main.10e31278.css",
+    "main.js": "/webstree-assignment/static/js/main.c33ebde2.js",
+    "static/js/488.07481834.chunk.js": "/webstree-assignment/static/js/488.07481834.chunk.js",
+    "index.html": "/webstree-assignment/index.html",
+    "main.10e31278.css.map": "/webstree-assignment/static/css/main.10e31278.css.map",
+    "main.c33ebde2.js.map": "/webstree-assignment/static/js/main.c33ebde2.js.map",
+    "488.07481834.chunk.js.map": "/webstree-assignment/static/js/488.07481834.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10e31278.css",
+    "static/js/main.c33ebde2.js"
+  ]
+}
