@@ -28,7 +28,7 @@ function PersonalCardDesign2({ firstName, lastName, gender, image, phoneNumber }
         <div className='flex flex-col h-1/2'>
 <div className='bg-blue-500 h-2/3 rounded-t-2xl'/>
 <div className='absolute border-4 border-blue-500 rounded-full object-contain top-10 left-[25%]'>
-<img src={image} className='h-32 w-32 rounded-full object-contain border-4 border-white'/>
+<img src={image} alt={`${firstName} ${lastName}`} className='h-32 w-32 rounded-full object-contain border-4 border-white'/>
 </div></div>
         <div className="flex flex-col gap-4 text-center h-1/2">
         <p className="text-lg font-bold">{`${firstName} ${"   "} ${lastName}`}</p>
