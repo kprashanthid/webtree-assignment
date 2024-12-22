@@ -50,7 +50,12 @@ const [userData,setUserData] = useState<User | null>(null);
        </div>:
       <p className='animate-fadeInUp text-white font-bold'>Loading</p>
       }
+      {userData?.firstName !== undefined ?
+        <div className='animate-fadeInUp'>
       <PersonalCardDesign2 firstName={userData?.firstName} lastName={userData?.lastName} gender={userData?.gender} image={userData?.image} phoneNumber={userData?.phoneNumber}/>
+      </div>:
+      <p className='animate-fadeInUp text-white font-bold'>Loading</p>
+      }
       </div>
   );
 }
